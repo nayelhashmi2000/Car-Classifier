@@ -1,2 +1,2 @@
 streamlit
-ultralytics
+ultralytics==8.2.48
