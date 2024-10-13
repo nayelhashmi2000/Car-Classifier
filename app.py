@@ -97,7 +97,6 @@ def main():
             st.session_state.pop('zip_buffer', None)
             st.session_state.pop('processed', None)
             st.session_state["file_uploader_key"] += 1
-            st.experimental_rerun()  # Rerun the app to refresh the state
 
 if __name__ == '__main__':
     main()
